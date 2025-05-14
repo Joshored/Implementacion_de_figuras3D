@@ -2,7 +2,7 @@ from OpenGL.GL import *
 from OpenGL.GLU import *
 import textures
 
-def drawCilindro():
+def draw():
     textura_id = textures.getTextura("talavera") 
     if textura_id:
         glEnable(GL_TEXTURE_2D)

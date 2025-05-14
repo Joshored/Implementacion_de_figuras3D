@@ -6,7 +6,7 @@ import textures
 
 texturaPiramide = None
 
-def drawPiramide():
+def draw():
     textura_id = textures.getTextura("talavera")
     if textura_id:
         glEnable(GL_TEXTURE_2D)
