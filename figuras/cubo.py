@@ -6,7 +6,7 @@ import textures
 
 texturaCubo = None
 
-def drawCubo():
+def draw():
     textura_id = textures.getTextura("roca")
     if textura_id:
         glEnable(GL_TEXTURE_2D)

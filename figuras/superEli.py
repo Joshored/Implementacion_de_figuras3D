@@ -11,7 +11,7 @@ def coseno_pot(u, m):
 def seno_pot(u, m):
     return signo(math.sin(u)) * (abs(math.sin(u)) ** m)
 
-def drawSuperelipsoide(n1=0.5, n2=0.5, a=1.0, pasos_u=40, pasos_v=20):
+def draw(n1=0.5, n2=0.5, a=1.0, pasos_u=40, pasos_v=20):
     textura_id = textures.getTextura("roca")  # Usa cualquier textura
     if textura_id:
         glEnable(GL_TEXTURE_2D)
