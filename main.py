@@ -7,6 +7,7 @@ import piramide
 import esfera
 import cilindro
 import superEli
+import textures
 
 ancho, alto = 500, 500
 
@@ -80,6 +81,12 @@ def mostrar_menu_visual(pantalla):
 
     pygame.display.flip()
 
+def cargarTexturas():
+    textures.cargarTextura("aluminio", "texturas/aluminio.png")
+    textures.cargarTextura("talavera", "texturas/talavera.png")
+    textures.cargarTextura("roca", "texturas/roca.png")
+    textures.cargarTextura("colores", "texturas/colores.png")
+
 def mostrar_menu():
     pygame.init()
     pantalla = pygame.display.set_mode((ancho, alto))
@@ -130,6 +137,7 @@ def main():
         
         pantalla = pygame.display.set_mode((ancho, alto), DOUBLEBUF | OPENGL)
         pygame.display.set_caption("Implementación de una escena 3D realista con OpenGL")
+        cargarTexturas()
         init_opengl()  # Reinicializar OpenGL
         
         # Resetear transformaciones
