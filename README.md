@@ -30,6 +30,8 @@ con las teclas 1,2,3 etc.
 
 #controles
 - flechas: rotar objeto
+- ![image](https://github.com/user-attachments/assets/b4ae219b-32a9-4d39-803c-017d6be591c3)
+
 - +/-:escalar el objeto 
 - T: alternar textura
 - I: alternar iluminación
