@@ -29,13 +29,13 @@ despues de la ejecucion aparece un menu en cual indica cual figura se desea most
 con las teclas 1,2,3 etc.
 
 #controles
-flechas: rotar objeto
-+/-:escalar el objeto 
-T: alternar textura
-I: alternar iluminación
-P: cambiar proyección 
-1,2,3..:Cambiar figura a dibujar
-Esc:Salir del programa
+- flechas: rotar objeto
+- +/-:escalar el objeto 
+- T: alternar textura
+- I: alternar iluminación
+- P: cambiar proyección 
+- 1,2,3..:Cambiar figura a dibujar
+- Esc:Salir del programa
 
-
+# conclusion
 La práctica permitió integrar conocimientos fundamentales de la graficación 3D con herramientas modernas como PyOpenGL. Se comprobo que con Python es posible crear escenas interactivas y visualmente atractivas, siempre y cuando se dominen los principios de modelado geométrico, proyección, iluminación y texturizado*
